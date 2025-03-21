@@ -1,57 +1,5 @@
 [
     {
-        "id": "66501b5a-8d34-451e-83e6-985f5f70b1bf",
-        "name": "MapsTooltip - stringFilter - Hidden",
-        "description": "Hidden",
-        "type": "other",
-        "industry": null,
-        "ownership_structure": [
-            "Community-Owned"
-        ],
-        "legal_structure": "other",
-        "year_founded": null,
-        "location": {
-            "city": "",
-            "country": "",
-            "address": "",
-            "state_region": "",
-            "zip_postal_code": ""
-        },
-        "geo_scope": "global",
-        "size": "unknown",
-        "members": null,
-        "funding": {
-            "sources": [],
-            "revenue": ""
-        },
-        "token": {
-            "name": "",
-            "token_symbol": "",
-            "blockchain_platform": "",
-            "governance_mechanism": "",
-            "link_to_token_contract": ""
-        },
-        "governance_model": "other",
-        "links_social_media": {
-            "website": "Hidden",
-            "twitter": "",
-            "linkedin": "",
-            "discord": "",
-            "github": "Hidden",
-            "other": "Hidden"
-        },
-        "contact_information": {
-            "contact_person": "",
-            "email": "Hidden",
-            "phone": ""
-        },
-        "certifications_affiliations": [],
-        "tags": [
-            "csvFilter - Hidden",
-            "csvFilter - Hidden"
-        ]
-    },
-    {
         "id": "d772d37c-e967-4de0-b7fc-3d1fc1feecd0",
         "name": "7Stakes",
         "description": "A platform that allows members to engage in sustainability initiatives.",
