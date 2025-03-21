@@ -69,11 +69,8 @@ This project is a full-stack web application that lets users search and filter a
 - **API Integration:**  
   Adapting to external APIs for geolocation and handling their rate limits and response formats.
   
-- **Low-Code Backend Adaptation:**  
-  Configuring a low-code backend (e.g., Airtable) to support custom filtering and search functionality.
-  
-- **Environment Configuration:**  
-  Managing sensitive environment variables securely and ensuring easy setup for end users.
+- **Backend Development:**  
+  Designing and implementing custom models in PostgreSQL to support complex filtering and search functionality.
   
 - **Pagination Handling:**  
   Ensuring the frontend properly handles paginated API responses while maintaining a smooth user experience.
