@@ -46,10 +46,6 @@ This project is a full-stack web application that lets users search and filter a
 
 ## Project Deliverables
 
-- **Working Prototype Interface:**  
-  [Prototype Link](#)  
-  *(Replace with the actual URL to your deployed application.)*
-
 - **Documentation & Data Scraping:**  
   - **Data Source:**  
     A CSV file from a public Internet of Ownership Directory is available [here](https://docs.google.com/spreadsheets/d/1RQTMhPJVVdmE7Yeop1iwYhvj46kgvVJQnn11EPGwzeY/edit?gid=674927682).
@@ -63,6 +59,24 @@ This project is a full-stack web application that lets users search and filter a
     The database schema was designed with sub-entities linked via foreign keys to enable faster and more reliable search and filtering.
   - **Data Seeding:**  
     A script (`seeddata.py`) automates the process of populating the database with initial, realistic data.
+
+---
+## Challenges Faced
+
+- **Data Consistency:**  
+  Ensuring that scraped data from public directories matched the required schema and was cleaned properly.
+  
+- **API Integration:**  
+  Adapting to external APIs for geolocation and handling their rate limits and response formats.
+  
+- **Low-Code Backend Adaptation:**  
+  Configuring a low-code backend (e.g., Airtable) to support custom filtering and search functionality.
+  
+- **Environment Configuration:**  
+  Managing sensitive environment variables securely and ensuring easy setup for end users.
+  
+- **Pagination Handling:**  
+  Ensuring the frontend properly handles paginated API responses while maintaining a smooth user experience.
 
 ---
 
@@ -98,9 +112,9 @@ DATABASE_PORT=5432
     pip install -r requirements.txt 
     ``` 
 4. **Apply migrations:**
-``` python manage.py migrate
+```
+    python manage.py migrate
     python manage.py makemigration
-    
  ```
 
 5. **Seed data to the DB:**
