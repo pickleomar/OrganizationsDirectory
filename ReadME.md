@@ -119,6 +119,11 @@ DATABASE_PORT=5432
 ```
 python manage.py seeddata
 ```
+
+5. **Run the server:**
+```
+python manage.py runserver
+```
 ### Frontend Setup
 
 ```
