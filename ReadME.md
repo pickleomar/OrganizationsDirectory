@@ -92,8 +92,8 @@ This project is a full-stack web application that lets users search and filter a
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_folder> ```
+   git clone <https://github.com/pickleomar/OrganizationsDirectory.git>
+   cd <organizations_manager> ```
 2. **Configure Environment Variables:**
 - A sample environment configuration file (.env.example) is provided in the repository.
 ``` cp .env.example .env
