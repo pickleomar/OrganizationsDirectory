@@ -93,7 +93,8 @@ This project is a full-stack web application that lets users search and filter a
    cd organizations_manager ```
 2. **Configure Environment Variables:**
 - A sample environment configuration file (.env.example) is provided in the repository.
-``` cp .env.example .env
+```bash
+cp .env.example .env
 ```
 -Edit the .env file to enter your database credentials and any other settings. For example:
 ``` DEBUG=True
@@ -110,14 +111,13 @@ DATABASE_PORT=5432
     ``` 
 4. **Apply migrations:**
 ```
-    python manage.py migrate
-    python manage.py makemigration
+ python manage.py migrate
+ python manage.py makemigration
  ```
 
 5. **Seed data to the DB:**
 ```
 python manage.py seeddata
-
 ```
 ### Frontend Setup
 
