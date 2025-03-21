@@ -83,7 +83,7 @@ This project is a full-stack web application that lets users search and filter a
 
 - **Frontend:** Node.js and npm  
 - **Backend:** Python 3.x, pip, and (optionally) virtualenv
-
+- **Database:** Postgres 17
 ### Backend Setup
 
 1. **Clone the Repository:**
