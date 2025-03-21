@@ -1,0 +1,40 @@
+{
+    "id": "123e4567-e89b-12d3-a456-426614174001",
+    "name": "BlockShare DAO",
+    "description": "Decentralized autonomous organization focusing on decentralized finance and blockchain investment.",
+    "type": "dao",
+    "industry": "64.19 - Other monetary intermediation",
+    "ownership_structure": ["Token-based Ownership", "Community-Owned"],
+    "legal_structure": "dao",
+    "year_founded": 2021,
+    "location": {
+        "city": "Virtual/Decentralized",
+        "country": "Global"
+    },
+    "geo_scope": "global",
+    "size": "medium",
+    "members": 500,
+    "funding": {
+        "sources": ["Token Sales", "Crowdfunding"],
+        "revenue": "$10M-$50M"
+    },
+    "token": {
+        "name": "BlockShare",
+        "token_symbol": "BLS",
+        "blockchain_platform": "Ethereum",
+        "governance_mechanism": "Token-Based Voting",
+        "link_to_token_contract": "https://etherscan.io/address/0x..."
+    },
+    "governance_model": "token",
+    "links_social_media": {
+        "website": "https://blockshare.org",
+        "discord": "https://discord.gg/blockshare",
+        "github": "https://github.com/blocksharedao"
+    },
+    "contact_information": {
+        "contact_person": "Alex Smith, DAO Coordinator",
+        "email": "hello@blockshare.org"
+    },
+    "certifications_affiliations": [],
+    "tags": ["Blockchain", "DeFi", "Decentralized Governance"]
+}
