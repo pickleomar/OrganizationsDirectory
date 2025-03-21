@@ -90,7 +90,7 @@ This project is a full-stack web application that lets users search and filter a
 
    ```bash
    git clone https://github.com/pickleomar/OrganizationsDirectory.git
-   cd organizations_manager ```
+   cd OrganizationDirectory ```
 2. **Configure Environment Variables:**
 - A sample environment configuration file (.env.example) is provided in the repository.
 ```bash
